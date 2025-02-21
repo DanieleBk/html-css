@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -27,6 +28,12 @@
             padding: 10px;
         }
 
+        thead>tr>th {
+            position: sticky;
+            top: -1px;
+            background-color: grey;
+        }
+
         thead, tfoot {
             background-color: grey;
             color: white;
@@ -34,6 +41,14 @@
 
         td.num {
             text-align: right;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(184, 231, 181);
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: rgb(235, 226, 145);
         }
     </style>
 </head>
@@ -169,6 +184,7 @@
         </tfoot>
 
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus perferendis vel mollitia quaerat, magnam quo optio ullam officiis consequuntur. Corrupti delectus soluta deserunt esse beatae, ab est totam enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis modi cum reiciendis repellendus, hic vel soluta autem dolorum saepe vero ipsam perspiciatis cupiditate, voluptatibus fugit error. Iste dignissimos doloribus id? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quidem, labore placeat sequi voluptate magnam eligendi dolor officiis nobis aliquam tempore facilis harum recusandae soluta non. Molestiae quos recusandae vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque ipsum ab veniam. Dolorum quod nobis, similique molestias molestiae aliquid? Aliquid soluta laudantium ea maiores necessitatibus, fugiat at dolorem natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis accusantium perferendis cupiditate repellat deleniti maiores voluptate, eos ab? Error rem expedita saepe voluptatem soluta esse officiis deleniti ducimus, ratione suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque culpa vero tempore? Voluptatem quae ducimus tempore! Commodi quidem aliquam dolore necessitatibus at explicabo odio, hic recusandae doloribus facere voluptatum aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos eligendi quam reiciendis aperiam amet maxime iste quia quos quibusdam. Eligendi ipsum autem culpa recusandae impedit asperiores consequatur perferendis quod? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusamus perferendis vel mollitia quaerat, magnam quo optio ullam officiis consequuntur. Corrupti delectus soluta deserunt esse beatae, ab est totam enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis modi cum reiciendis repellendus, hic vel soluta autem dolorum saepe vero ipsam perspiciatis cupiditate, voluptatibus fugit error. Iste dignissimos doloribus id? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium quidem, labore placeat sequi voluptate magnam eligendi dolor officiis nobis aliquam tempore facilis harum recusandae soluta non. Molestiae quos recusandae vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque ipsum ab veniam. Dolorum quod nobis, similique molestias molestiae aliquid? Aliquid soluta laudantium ea maiores necessitatibus, fugiat at dolorem natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis accusantium perferendis cupiditate repellat deleniti maiores voluptate, eos ab? Error rem expedita saepe voluptatem soluta esse officiis deleniti ducimus, ratione suscipit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque culpa vero tempore? Voluptatem quae ducimus tempore! Commodi quidem aliquam dolore necessitatibus at explicabo odio, hic recusandae doloribus facere voluptatum aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos eligendi quam reiciendis aperiam amet maxime iste quia quos quibusdam. Eligendi ipsum autem culpa recusandae impedit asperiores consequatur perferendis quod?</p>
     
 </body>
 </html>
