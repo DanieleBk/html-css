@@ -35,15 +35,15 @@ span#burguer:hover {
     color: black;
 }
 
-menu {
+menu#itens {
     display: none;
 }
 
-menu > ul {
+menu#itens > ul {
     list-style-type: none;
 }
 
-menu > ul > li > a {
+menu#itens > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -53,7 +53,7 @@ menu > ul > li > a {
     border-top: 2px solid gray;
 }
 
-menu > ul > li > a:hover {
+menu#itens > ul > li > a:hover {
     background-color: gray;
 
 }
